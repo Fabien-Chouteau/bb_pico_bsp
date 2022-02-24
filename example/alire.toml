@@ -1,0 +1,10 @@
+name = "bb_pico_example"
+description = "Example for the bb_pico_bsp"
+version = "0.0.0"
+
+[[depends-on]]
+bb_pico_bsp = "*"
+
+[[pins]]
+bb_pico_bsp = { path='../' }
+
